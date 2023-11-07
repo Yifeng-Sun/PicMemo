@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF331F92AFAE0F300AD9A39 /* PicMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF331F82AFAE0F300AD9A39 /* PicMemoApp.swift */; };
+		FAF331FB2AFAE0F300AD9A39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF331FA2AFAE0F300AD9A39 /* ContentView.swift */; };
+		FAF331FD2AFAE0F300AD9A39 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF331FC2AFAE0F300AD9A39 /* Item.swift */; };
+		FAF331FF2AFAE0F500AD9A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF331FE2AFAE0F500AD9A39 /* Assets.xcassets */; };
+		FAF332022AFAE0F500AD9A39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF332012AFAE0F500AD9A39 /* Preview Assets.xcassets */; };
+		FAF3320E2AFAE0F600AD9A39 /* PicMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF3320D2AFAE0F600AD9A39 /* PicMemoTests.swift */; };
+		FAF332182AFAE0F600AD9A39 /* PicMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF332172AFAE0F600AD9A39 /* PicMemoUITests.swift */; };
+		FAF3321A2AFAE0F600AD9A39 /* PicMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF332192AFAE0F600AD9A39 /* PicMemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF3320A2AFAE0F600AD9A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF331ED2AFAE0F300AD9A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF331F42AFAE0F300AD9A39;
+			remoteInfo = PicMemo;
+		};
+		FAF332142AFAE0F600AD9A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF331ED2AFAE0F300AD9A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF331F42AFAE0F300AD9A39;
+			remoteInfo = PicMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF331F52AFAE0F300AD9A39 /* PicMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF331F82AFAE0F300AD9A39 /* PicMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicMemoApp.swift; sourceTree = "<group>"; };
+		FAF331FA2AFAE0F300AD9A39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAF331FC2AFAE0F300AD9A39 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FAF331FE2AFAE0F500AD9A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF332012AFAE0F500AD9A39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAF332032AFAE0F500AD9A39 /* PicMemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PicMemo.entitlements; sourceTree = "<group>"; };
+		FAF332042AFAE0F500AD9A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF332092AFAE0F600AD9A39 /* PicMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF3320D2AFAE0F600AD9A39 /* PicMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicMemoTests.swift; sourceTree = "<group>"; };
+		FAF332132AFAE0F600AD9A39 /* PicMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF332172AFAE0F600AD9A39 /* PicMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicMemoUITests.swift; sourceTree = "<group>"; };
+		FAF332192AFAE0F600AD9A39 /* PicMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF331F22AFAE0F300AD9A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF332062AFAE0F600AD9A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF332102AFAE0F600AD9A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF331EC2AFAE0F300AD9A39 = {
+			isa = PBXGroup;
+			children = (
+				FAF331F72AFAE0F300AD9A39 /* PicMemo */,
+				FAF3320C2AFAE0F600AD9A39 /* PicMemoTests */,
+				FAF332162AFAE0F600AD9A39 /* PicMemoUITests */,
+				FAF331F62AFAE0F300AD9A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF331F62AFAE0F300AD9A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF331F52AFAE0F300AD9A39 /* PicMemo.app */,
+				FAF332092AFAE0F600AD9A39 /* PicMemoTests.xctest */,
+				FAF332132AFAE0F600AD9A39 /* PicMemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF331F72AFAE0F300AD9A39 /* PicMemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAF331F82AFAE0F300AD9A39 /* PicMemoApp.swift */,
+				FAF331FA2AFAE0F300AD9A39 /* ContentView.swift */,
+				FAF331FC2AFAE0F300AD9A39 /* Item.swift */,
+				FAF331FE2AFAE0F500AD9A39 /* Assets.xcassets */,
+				FAF332032AFAE0F500AD9A39 /* PicMemo.entitlements */,
+				FAF332042AFAE0F500AD9A39 /* Info.plist */,
+				FAF332002AFAE0F500AD9A39 /* Preview Content */,
+			);
+			path = PicMemo;
+			sourceTree = "<group>";
+		};
+		FAF332002AFAE0F500AD9A39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAF332012AFAE0F500AD9A39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAF3320C2AFAE0F600AD9A39 /* PicMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF3320D2AFAE0F600AD9A39 /* PicMemoTests.swift */,
+			);
+			path = PicMemoTests;
+			sourceTree = "<group>";
+		};
+		FAF332162AFAE0F600AD9A39 /* PicMemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF332172AFAE0F600AD9A39 /* PicMemoUITests.swift */,
+				FAF332192AFAE0F600AD9A39 /* PicMemoUITestsLaunchTests.swift */,
+			);
+			path = PicMemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF331F42AFAE0F300AD9A39 /* PicMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF3321D2AFAE0F600AD9A39 /* Build configuration list for PBXNativeTarget "PicMemo" */;
+			buildPhases = (
+				FAF331F12AFAE0F300AD9A39 /* Sources */,
+				FAF331F22AFAE0F300AD9A39 /* Frameworks */,
+				FAF331F32AFAE0F300AD9A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicMemo;
+			productName = PicMemo;
+			productReference = FAF331F52AFAE0F300AD9A39 /* PicMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF332082AFAE0F600AD9A39 /* PicMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF332202AFAE0F600AD9A39 /* Build configuration list for PBXNativeTarget "PicMemoTests" */;
+			buildPhases = (
+				FAF332052AFAE0F600AD9A39 /* Sources */,
+				FAF332062AFAE0F600AD9A39 /* Frameworks */,
+				FAF332072AFAE0F600AD9A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF3320B2AFAE0F600AD9A39 /* PBXTargetDependency */,
+			);
+			name = PicMemoTests;
+			productName = PicMemoTests;
+			productReference = FAF332092AFAE0F600AD9A39 /* PicMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF332122AFAE0F600AD9A39 /* PicMemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF332232AFAE0F600AD9A39 /* Build configuration list for PBXNativeTarget "PicMemoUITests" */;
+			buildPhases = (
+				FAF3320F2AFAE0F600AD9A39 /* Sources */,
+				FAF332102AFAE0F600AD9A39 /* Frameworks */,
+				FAF332112AFAE0F600AD9A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF332152AFAE0F600AD9A39 /* PBXTargetDependency */,
+			);
+			name = PicMemoUITests;
+			productName = PicMemoUITests;
+			productReference = FAF332132AFAE0F600AD9A39 /* PicMemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF331ED2AFAE0F300AD9A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FAF331F42AFAE0F300AD9A39 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FAF332082AFAE0F600AD9A39 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FAF331F42AFAE0F300AD9A39;
+					};
+					FAF332122AFAE0F600AD9A39 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FAF331F42AFAE0F300AD9A39;
+					};
+				};
+			};
+			buildConfigurationList = FAF331F02AFAE0F300AD9A39 /* Build configuration list for PBXProject "PicMemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF331EC2AFAE0F300AD9A39;
+			productRefGroup = FAF331F62AFAE0F300AD9A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF331F42AFAE0F300AD9A39 /* PicMemo */,
+				FAF332082AFAE0F600AD9A39 /* PicMemoTests */,
+				FAF332122AFAE0F600AD9A39 /* PicMemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF331F32AFAE0F300AD9A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF332022AFAE0F500AD9A39 /* Preview Assets.xcassets in Resources */,
+				FAF331FF2AFAE0F500AD9A39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF332072AFAE0F600AD9A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF332112AFAE0F600AD9A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF331F12AFAE0F300AD9A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF331FB2AFAE0F300AD9A39 /* ContentView.swift in Sources */,
+				FAF331FD2AFAE0F300AD9A39 /* Item.swift in Sources */,
+				FAF331F92AFAE0F300AD9A39 /* PicMemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF332052AFAE0F600AD9A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF3320E2AFAE0F600AD9A39 /* PicMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF3320F2AFAE0F600AD9A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF332182AFAE0F600AD9A39 /* PicMemoUITests.swift in Sources */,
+				FAF3321A2AFAE0F600AD9A39 /* PicMemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF3320B2AFAE0F600AD9A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF331F42AFAE0F300AD9A39 /* PicMemo */;
+			targetProxy = FAF3320A2AFAE0F600AD9A39 /* PBXContainerItemProxy */;
+		};
+		FAF332152AFAE0F600AD9A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF331F42AFAE0F300AD9A39 /* PicMemo */;
+			targetProxy = FAF332142AFAE0F600AD9A39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAF3321B2AFAE0F600AD9A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF3321C2AFAE0F600AD9A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF3321E2AFAE0F600AD9A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PicMemo/PicMemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PicMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = QM9G2Y7227;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PicMemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengsun.PicMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF3321F2AFAE0F600AD9A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PicMemo/PicMemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PicMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = QM9G2Y7227;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PicMemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengsun.PicMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAF332212AFAE0F600AD9A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM9G2Y7227;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengsun.PicMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PicMemo";
+			};
+			name = Debug;
+		};
+		FAF332222AFAE0F600AD9A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM9G2Y7227;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengsun.PicMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PicMemo";
+			};
+			name = Release;
+		};
+		FAF332242AFAE0F600AD9A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM9G2Y7227;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengsun.PicMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PicMemo;
+			};
+			name = Debug;
+		};
+		FAF332252AFAE0F600AD9A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM9G2Y7227;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yifengsun.PicMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PicMemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF331F02AFAE0F300AD9A39 /* Build configuration list for PBXProject "PicMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF3321B2AFAE0F600AD9A39 /* Debug */,
+				FAF3321C2AFAE0F600AD9A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF3321D2AFAE0F600AD9A39 /* Build configuration list for PBXNativeTarget "PicMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF3321E2AFAE0F600AD9A39 /* Debug */,
+				FAF3321F2AFAE0F600AD9A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF332202AFAE0F600AD9A39 /* Build configuration list for PBXNativeTarget "PicMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF332212AFAE0F600AD9A39 /* Debug */,
+				FAF332222AFAE0F600AD9A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF332232AFAE0F600AD9A39 /* Build configuration list for PBXNativeTarget "PicMemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF332242AFAE0F600AD9A39 /* Debug */,
+				FAF332252AFAE0F600AD9A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF331ED2AFAE0F300AD9A39 /* Project object */;
+}
